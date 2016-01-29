@@ -12,6 +12,11 @@
 		B700DA491C5BBC0F00BAF8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B700DA471C5BBC0F00BAF8D5 /* Main.storyboard */; };
 		B700DA4B1C5BBC0F00BAF8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B700DA4A1C5BBC0F00BAF8D5 /* Assets.xcassets */; };
 		B700DA4E1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B700DA4C1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard */; };
+		B700DA621C5BD48500BAF8D5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B700DA611C5BD48500BAF8D5 /* SWRevealViewController.m */; };
+		B700DA641C5BDA6900BAF8D5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B700DA631C5BDA6900BAF8D5 /* MenuViewController.swift */; };
+		C20AFD921C5BE79400C9800C /* ic_assistant_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */; };
+		C20AFD931C5BE79400C9800C /* ic_assistant_photo_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */; };
+		C20AFD941C5BE79400C9800C /* ic_audiotrack_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		B700DA4A1C5BBC0F00BAF8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B700DA4D1C5BBC0F00BAF8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B700DA4F1C5BBC0F00BAF8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B700DA5F1C5BD48400BAF8D5 /* GoMatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoMatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		B700DA601C5BD48500BAF8D5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B700DA611C5BD48500BAF8D5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B700DA631C5BDA6900BAF8D5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_assistant_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_assistant_black_24dp.png"; sourceTree = "<group>"; };
+		C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_assistant_photo_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_assistant_photo_black_24dp.png"; sourceTree = "<group>"; };
+		C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_audiotrack_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_audiotrack_black_24dp.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,45 @@
 		B700DA421C5BBC0F00BAF8D5 /* GoMatch */ = {
 			isa = PBXGroup;
 			children = (
+				C20AFD8D1C5BE71E00C9800C /* accets */,
 				B700DA431C5BBC0F00BAF8D5 /* AppDelegate.swift */,
 				B700DA451C5BBC0F00BAF8D5 /* ViewController.swift */,
 				B700DA471C5BBC0F00BAF8D5 /* Main.storyboard */,
+				B700DA631C5BDA6900BAF8D5 /* MenuViewController.swift */,
 				B700DA4A1C5BBC0F00BAF8D5 /* Assets.xcassets */,
+				B700DA5E1C5BD40800BAF8D5 /* SWRevealViewController */,
 				B700DA4C1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard */,
 				B700DA4F1C5BBC0F00BAF8D5 /* Info.plist */,
 			);
 			path = GoMatch;
+			sourceTree = "<group>";
+		};
+		B700DA5E1C5BD40800BAF8D5 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B700DA601C5BD48500BAF8D5 /* SWRevealViewController.h */,
+				B700DA611C5BD48500BAF8D5 /* SWRevealViewController.m */,
+				B700DA5F1C5BD48400BAF8D5 /* GoMatch-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		C20AFD8D1C5BE71E00C9800C /* accets */ = {
+			isa = PBXGroup;
+			children = (
+				C20AFD8E1C5BE72A00C9800C /* image */,
+			);
+			name = accets;
+			sourceTree = "<group>";
+		};
+		C20AFD8E1C5BE72A00C9800C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */,
+				C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */,
+				C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20AFD941C5BE79400C9800C /* ic_audiotrack_black_24dp.png in Resources */,
+				C20AFD921C5BE79400C9800C /* ic_assistant_black_24dp.png in Resources */,
 				B700DA4E1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard in Resources */,
+				C20AFD931C5BE79400C9800C /* ic_assistant_photo_black_24dp.png in Resources */,
 				B700DA4B1C5BBC0F00BAF8D5 /* Assets.xcassets in Resources */,
 				B700DA491C5BBC0F00BAF8D5 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +184,8 @@
 			files = (
 				B700DA461C5BBC0F00BAF8D5 /* ViewController.swift in Sources */,
 				B700DA441C5BBC0F00BAF8D5 /* AppDelegate.swift in Sources */,
+				B700DA621C5BD48500BAF8D5 /* SWRevealViewController.m in Sources */,
+				B700DA641C5BDA6900BAF8D5 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GoMatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sanadi.GoMatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMatch/GoMatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -259,10 +310,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GoMatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sanadi.GoMatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMatch/GoMatch-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -285,6 +338,7 @@
 				B700DA541C5BBC0F00BAF8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
