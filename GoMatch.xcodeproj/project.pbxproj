@@ -14,6 +14,9 @@
 		B700DA4E1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B700DA4C1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard */; };
 		B700DA621C5BD48500BAF8D5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B700DA611C5BD48500BAF8D5 /* SWRevealViewController.m */; };
 		B700DA641C5BDA6900BAF8D5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B700DA631C5BDA6900BAF8D5 /* MenuViewController.swift */; };
+		C20AFD921C5BE79400C9800C /* ic_assistant_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */; };
+		C20AFD931C5BE79400C9800C /* ic_assistant_photo_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */; };
+		C20AFD941C5BE79400C9800C /* ic_audiotrack_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,10 @@
 		B700DA601C5BD48500BAF8D5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		B700DA611C5BD48500BAF8D5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		B700DA631C5BDA6900BAF8D5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+
+		C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_assistant_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_assistant_black_24dp.png"; sourceTree = "<group>"; };
+		C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_assistant_photo_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_assistant_photo_black_24dp.png"; sourceTree = "<group>"; };
+		C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_audiotrack_black_24dp.png; path = "../../../Downloads/material-design-icons-master/image/drawable-mdpi/ic_audiotrack_black_24dp.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 		B700DA421C5BBC0F00BAF8D5 /* GoMatch */ = {
 			isa = PBXGroup;
 			children = (
+				C20AFD8D1C5BE71E00C9800C /* accets */,
 				B700DA431C5BBC0F00BAF8D5 /* AppDelegate.swift */,
 				B700DA451C5BBC0F00BAF8D5 /* ViewController.swift */,
 				B700DA471C5BBC0F00BAF8D5 /* Main.storyboard */,
@@ -80,6 +88,24 @@
 				B700DA5F1C5BD48400BAF8D5 /* GoMatch-Bridging-Header.h */,
 			);
 			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		C20AFD8D1C5BE71E00C9800C /* accets */ = {
+			isa = PBXGroup;
+			children = (
+				C20AFD8E1C5BE72A00C9800C /* image */,
+			);
+			name = accets;
+			sourceTree = "<group>";
+		};
+		C20AFD8E1C5BE72A00C9800C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C20AFD8F1C5BE79400C9800C /* ic_assistant_black_24dp.png */,
+				C20AFD901C5BE79400C9800C /* ic_assistant_photo_black_24dp.png */,
+				C20AFD911C5BE79400C9800C /* ic_audiotrack_black_24dp.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20AFD941C5BE79400C9800C /* ic_audiotrack_black_24dp.png in Resources */,
+				C20AFD921C5BE79400C9800C /* ic_assistant_black_24dp.png in Resources */,
 				B700DA4E1C5BBC0F00BAF8D5 /* LaunchScreen.storyboard in Resources */,
+				C20AFD931C5BE79400C9800C /* ic_assistant_photo_black_24dp.png in Resources */,
 				B700DA4B1C5BBC0F00BAF8D5 /* Assets.xcassets in Resources */,
 				B700DA491C5BBC0F00BAF8D5 /* Main.storyboard in Resources */,
 			);
